@@ -1,0 +1,83 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+background-color: gray;
+}
+
+.container {}
+
+.navbar {
+    background-color: rgb(87, 87, 87);
+    height: 10vh;
+    width: 100%;
+}
+
+.ul-nav {
+display: flex;
+justify-content: center;
+height: 100px;
+align-items: center;
+}
+
+.li-nav {
+    list-style-type: none;
+    padding: 20px;
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.li-nav:hover {
+    background-color: aqua;
+    transition: .2s ease-in-out;
+ /* transition-delay: .1s; i dont want*/
+    border-radius: 3px;
+}
+
+.a-navbar {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.a-logo{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 640px;
+    height: 640px;
+    border-radius: 30px;
+    box-shadow: 3px 7px 11px 2px rgba(0,0,0,0.59);
+-webkit-box-shadow: 3px 7px 11px 2px rgba(0,0,0,0.59);
+-moz-box-shadow: 3px 7px 11px 2px rgba(0,0,0,0.59);
+}
+
+.kla-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    height: 80vh;
+}
+
+.logokla {
+    border-radius: 30px;
+    width: 640px;
+    height: 640px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.h1-footer{
+    background-color: darkgray;
+}
